@@ -1,0 +1,183 @@
+.add_btn {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.row {
+  background-color: lightslategray;
+}
+.title1 {
+  text-align: center;
+}
+.download {
+  float: right;
+}
+
+.Auth-form-title1 {
+  text-align: center;
+}
+.add_btn mt-2 {
+  text-align: right;
+  padding-left: 100px;
+}
+
+.download {
+  text-align: right;
+}
+.ems {
+  text-align: center;
+  text-decoration-line: underline;
+  padding-bottom: 10px;
+}
+
+.tabletop {
+  background-color: lightgreen;
+  text-align: center;
+}
+.Main {
+  background-color: lightgrey;
+}
+
+.container {
+  overflow: auto;
+}
+.logo {
+  size-adjust: 100px;
+}
+.container-fluid {
+  background-color: white;
+}
+.nav-item {
+  font-size: 20px;
+  padding-left: 200px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+
+  color: black;
+}
+
+.nav-item1 {
+  font-size: 20px;
+  padding-left: 50px;
+  text-decoration: solid;
+}
+
+.nav-item1:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.title {
+  text-align: center;
+}
+
+.adduser {
+  color: white;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.Auth-form {
+  width: 400px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.signup {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.Auth-form-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Auth-form1 {
+  width: 1300px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content1 {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.Auth-form-title1 {
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.signup1 {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.leftview {
+  font-size: 21px;
+  text-align: center;
+}
+
+.rightview {
+  font-size: 21px;
+  text-align: center;
+}
+.welcome {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icon {
+  text-align: center;
+}
