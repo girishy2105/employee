@@ -1,15 +1,20 @@
-let posturl = 'http://localhost:5001/employee'
+let posturl = ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/employee'
 
-let geturl = 'http://localhost:5001/employee/get'
+let geturl =
+  ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/employee/get'
 
-let puturl = 'http://localhost:5001/employee/put'
+let puturl =
+  ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/employee/put'
 
-let delurl = 'http://localhost:5001/employee/:code'
+let delurl =
+  ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/employee/:code'
 
-let post = 'http://localhost:5001/department'
+let post = ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/department'
 
-let get = 'http://localhost:5001/department/get'
+let get =
+  ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/department/get'
 
-let put = 'http://localhost:5001/department/depput'
+let put =
+  ' https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/department/depput'
 
 module.exports = { posturl, geturl, delurl, puturl, post, get, put }
