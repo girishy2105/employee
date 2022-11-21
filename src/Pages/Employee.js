@@ -68,12 +68,15 @@ const Employee = () => {
   }
 
   const deleteuser = async (EmployeeCode) => {
-    const res2 = await fetch(`http://localhost:5001/employee/${EmployeeCode}`, {
-      method: 'DELETE',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
+    const res2 = await fetch(
+      `https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/employee/${EmployeeCode}`,
+      {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    )
 
     const data2 = await res2.json()
     console.log('data2', data2)
