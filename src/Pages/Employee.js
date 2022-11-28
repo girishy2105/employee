@@ -231,9 +231,9 @@ const Employee = () => {
                       <td>{element.EmployeeL1}</td>
 
                       <td className='d-flex justify-content-between'>
-                        <NavLink to={`/details/${element.EmployeeCode}`}>
+                        {/* <NavLink to={`/details/${element.EmployeeCode}`}>
                           <button className='btn btn-success'>VIEW</button>
-                        </NavLink>
+                        </NavLink> */}
                         <NavLink to={`/edit/${element.EmployeeCode}`}>
                           <button className='btn btn-primary'>EDIT</button>
                         </NavLink>
