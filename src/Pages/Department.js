@@ -174,12 +174,12 @@ const Department = () => {
                           <button className='btn btn-primary'>EDIT</button>
                         </NavLink>
 
-                        <button
+                        {/* <button
                           className='btn btn-danger'
                           onClick={() => deleteuser(element.EmployeeCode)}
                         >
                           DELETE
-                        </button>
+                        </button> */}
                       </td>
                     </tr>
                   </>
