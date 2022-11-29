@@ -32,7 +32,7 @@ const Department = () => {
 
   const deleteuser = async (EmployeeCode) => {
     const res2 = await fetch(
-      `http://localhost:5001/Department/${EmployeeCode}`,
+      `https://s3ht8i0izf.execute-api.us-east-1.amazonaws.com/department/${EmployeeCode}`,
       {
         method: 'DELETE',
         headers: {
@@ -167,9 +167,9 @@ const Department = () => {
                       <td>{element.Status}</td>
 
                       <td className='d-flex justify-content-between'>
-                        <NavLink to={`/details/${element.EmployeeCode}`}>
+                        {/* <NavLink to={`/details/${element.EmployeeCode}`}>
                           <button className='btn btn-success'>VIEW</button>
-                        </NavLink>
+                        </NavLink> */}
                         <NavLink to={`/editdept/${element.EmployeeCode}`}>
                           <button className='btn btn-primary'>EDIT</button>
                         </NavLink>
